@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WatchCharm</title>
     
@@ -19,10 +18,70 @@
   </head>
   <body>
     <header>
-  <div class="container">
-    <a href="/src/index.html">watchcharm</a>
-  </div>
+  <div class="container"></div>
+  <a href="../index.html">watchcharm</a>
+  <nav>
+    <ul class="nav-page">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Catalog</a></li>
+      <li><a href="#">Sale</a></li>
+      <li><a href="#">Reviews</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  <button class="burger-btn">
+    <svg width="34" height="34" aria-label="menu button">
+      <use href="../img/icon/sprite.svg#burger-icon"></use>
+    </svg>
+  </button>
+  <ul class="social-list">
+    <li>
+      <a target="_blank" href="https://www.facebook.com/goITclub/"
+        ><svg width="36" height="36" aria-label="icon facebook">
+          <use href="../img/icon/sprite.svg#facebook-icon"></use></svg
+      ></a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.instagram.com/goitclub/"
+        ><svg width="36" height="36" aria-label="icon instagram">
+          <use href="../img/icon/sprite.svg#instagram-icon"></use></svg
+      ></a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.youtube.com/c/GoIT"
+        ><svg width="36" height="36" aria-label="icon youtube">
+          <use href="../img/icon/sprite.svg#youtube-icon"></use></svg
+      ></a>
+    </li>
+  </ul>
 </header>
+
+    <section>
+  <div class="container">
+    <h1>Welcome to our collection of premium watches</h1>
+    <p>
+      Our watches are not just timepieces, but also an expression of your
+      personality and lifestyle. From classic designs to modern ones, we have a
+      watch to suit every taste and occasion.
+    </p>
+    <ul class="team-list">
+      <li>
+        <picture>
+          <img
+            width="60"
+            height="60"
+            src="data:image/png;base64,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"
+            alt="our team images"
+          />
+        </picture>
+      </li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</section>
+
 
   </body>
 </html>
