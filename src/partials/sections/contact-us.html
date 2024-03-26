@@ -1,0 +1,70 @@
+<section>
+  <div class="container">
+    <h2 id="contact">Contact Us</h2>
+    <p>
+      Please use the form below to contact us. Enter your name, email, phone,
+      and message and we'll get back to you shortly.
+    </p>
+    <form>
+      <ul>
+        <li>
+          <input
+            type="text"
+            placeholder="Name"
+            name="user-name"
+            required
+            title="Mykola"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЕґҐ']+"
+          />
+        </li>
+        <li>
+          <input
+            type="email"
+            placeholder="Email"
+            name="user-email"
+            required
+            title="*******@*****.***"
+          />
+        </li>
+        <li>
+          <input
+            type="tel"
+            placeholder="+380"
+            name="user-tel"
+            required
+            title="+380000000000"
+            pattern="[+]{1}[0-9]{12}"
+          />
+        </li>
+        <li>
+          <textarea name="user-comment" placeholder="Comment"></textarea>
+        </li>
+      </ul>
+      <button type="submit">Send</button>
+    </form>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./img/contact-us-img/contact-us.png   1x,
+          ./img/contact-us-img/contact-us@2.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/contact-us-img/tablet-contact-us.png   1x,
+          ./img/contact-us-img/tablet-contact-us@2.png 2x
+        "
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="
+          ./img/contact-us-img/mobile-contact-us.png   1x,
+          ./img/contact-us-img/mobile-contact-us@2.png 2x
+        "
+      />
+      <img src="./img/catalog-img/mobile-catalog5.png" alt="" />
+    </picture>
+  </div>
+</section>
