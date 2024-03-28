@@ -1,5 +1,7 @@
 @import url('./fonts/stylesheet.css');
 @import url('./reset.css');
+@import url('./header.css');
+@import url('./section/hero-section.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
