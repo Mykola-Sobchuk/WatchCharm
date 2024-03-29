@@ -20,6 +20,13 @@
 .team-list {
   display: flex;
 }
+.hero-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+}
 .hero-scroll:hover,
 :focus {
   color: #3350e9;
@@ -41,6 +48,7 @@
 @media only screen and (min-width: 768px) {
   .hero-section {
     margin-top: 80px;
+    margin-bottom: 160px;
   }
   .hero-title {
     margin: 0px;
@@ -50,7 +58,13 @@
   .hero-text {
     font-size: 16px;
     line-height: 125%;
+    width: 470px;
   }
+  .hero-scroll {
+    font-size: 20px;
+    line-height: 100%;
+  }
+
   .hero-text-content-tablet {
     display: flex;
     flex-direction: column;
@@ -67,5 +81,18 @@
     display: flex;
     margin-bottom: 40px;
     column-gap: 11px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-section {
+    margin-bottom: 100px;
+  }
+  .wrapper-hero-tablet {
+    justify-content: space-between;
+  }
+  .hero-title {
+    font-size: 72px;
+    line-height: 87%;
+    width: 597px;
   }
 }
