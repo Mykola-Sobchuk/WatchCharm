@@ -16,27 +16,27 @@
 }
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .adver-wrapper {
-    background-image: url(./img/advertisement-img/mobile-adver-img@2.png);
+    background-image: url(../img/advertisement-img/mobile-adver-img@2.png);
   }
 }
 @media only screen and (min-width: 768px) {
   .adver-wrapper {
-    background-image: url(./img/advertisement-img/tablet-adver-img.png);
+    background-image: url(../img/advertisement-img/tablet-adver-img.png);
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .adver-wrapper {
-    background-image: url(./img/advertisement-img/tablet-adver-img@2.png);
+    background-image: url(../img/advertisement-img/tablet-adver-img@2.png);
   }
 }
 @media only screen and (min-width: 1280px) {
   .adver-wrapper {
-    background-image: url(./img/advertisement-img/adver-img.png);
+    background-image: url(../img/advertisement-img/adver-img.png);
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .adver-wrapper {
-    background-image: url(./img/advertisement-img/adver-img@2.png);
+    background-image: url(../img/advertisement-img/adver-img@2.png);
   }
 }
 /* ===== /background Styles ====== */
