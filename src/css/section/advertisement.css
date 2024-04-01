@@ -32,12 +32,12 @@
 }
 @media only screen and (min-width: 1280px) {
   .adver-wrapper {
-    background-image: url(../img/advertisement-img/adver.png);
+    background-image: url(./img/advertisement-img/adver.png);
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .adver-wrapper {
-    background-image: url(../img/advertisement-img/adver.png);
+    background-image: url(./img/advertisement-img/adver.png);
   }
 }
 /* ===== /background Styles ====== */
