@@ -9,7 +9,7 @@
   background-color: #0c0c0c;
 }
 /* ===== background Styles ====== */
-/*  */
+
 @media only screen and (max-width: 767px) {
   .adver-wrapper {
     background-image: url(../img/advertisement-img/mobile-adver.png);
