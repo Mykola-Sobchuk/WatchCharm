@@ -6,6 +6,8 @@
 @import url('./section/catalog.css');
 @import url('./section/advertisement.css');
 @import url('./section/sale.css');
+@import url('./section/reviews.css');
+@import url('./section/contact-us.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
