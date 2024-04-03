@@ -24,6 +24,9 @@ header {
   border: none;
   background: white;
 }
+.social-list {
+  fill: #0c0c0c;
+}
 
 @media only screen and (max-width: 1279px) {
   .nav-page {
