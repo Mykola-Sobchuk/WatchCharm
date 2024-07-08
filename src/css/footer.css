@@ -1,0 +1,13 @@
+.footer-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list {
+  display: flex;
+  gap: 35px;
+}
