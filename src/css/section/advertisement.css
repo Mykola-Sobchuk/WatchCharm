@@ -1,0 +1,95 @@
+.adver-wrapper {
+  border-radius: 30px;
+  border: 1px solid #000;
+  padding: 60px 28px;
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0c0c0c;
+}
+/* ===== background Styles ====== */
+
+@media only screen and (max-width: 767px) {
+  .adver-wrapper {
+    background-image: url(../img/advertisement/mobile-adver.png);
+  }
+}
+@media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .adver-wrapper {
+    background-image: url(../img/advertisement/mobile-adver@2.png);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .adver-wrapper {
+    background-image: url(../img/advertisement/tablet-adver.png);
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .adver-wrapper {
+    background-image: url(../img/advertisement/tablet-adver@2.png);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .adver-wrapper {
+    background-image: url(../img/advertisement/adver.png);
+  }
+}
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .adver-wrapper {
+    background-image: url(../img/advertisement/adver.png);
+  }
+}
+/* ===== /background Styles ====== */
+
+.adver-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 41px;
+}
+.span-text-adver {
+  color: rgba(251, 251, 251, 0.5);
+}
+.adver-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  padding: 15px 43px;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  min-width: 160px;
+}
+.adver-section {
+  margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .adver-wrapper {
+    padding: 80px 64px;
+  }
+  .adver-text {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .adver-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .adver-btn {
+    display: block;
+    height: 48px;
+  }
+  .adver-text {
+    font-size: 48px;
+    line-height: 92%;
+    margin: 0px;
+    width: 690px;
+  }
+}

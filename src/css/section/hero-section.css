@@ -1,0 +1,98 @@
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.span-title {
+  color: #3350e9;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.team-list {
+  display: flex;
+}
+.hero-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+}
+.hero-scroll:hover,
+:focus {
+  color: #3350e9;
+  transition: color 250ms linear;
+}
+.hero-section {
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    margin: 28px 0 28px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    margin-top: 80px;
+    margin-bottom: 160px;
+  }
+  .hero-title {
+    margin: 0px;
+    font-size: 70px;
+    line-height: 86%;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 125%;
+    width: 470px;
+  }
+  .hero-scroll {
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .hero-text-content-tablet {
+    display: flex;
+    flex-direction: column;
+    max-width: 557px;
+    gap: 20px;
+  }
+  .hero-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+  }
+  .wrapper-hero-tablet {
+    display: flex;
+    margin-bottom: 40px;
+    column-gap: 11px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-section {
+    margin-bottom: 100px;
+  }
+  .wrapper-hero-tablet {
+    justify-content: space-between;
+  }
+  .hero-title {
+    font-size: 72px;
+    line-height: 87%;
+    width: 597px;
+  }
+}

@@ -1,0 +1,79 @@
+<section class="contact-us-section">
+  <div class="container contact-wrapper">
+    <h2 class="contact-us-title" id="contact">Contact Us</h2>
+    <div class="desk-wrapper-contact">
+      <form>
+        <p class="contact-us-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <ul class="contact-ul">
+          <li>
+            <input
+              class="contact-form-item"
+              type="text"
+              placeholder="Name"
+              name="user-name"
+              required
+              title="Mykola"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЕґҐ']+"
+            />
+          </li>
+          <li>
+            <input
+              class="contact-form-item"
+              type="email"
+              placeholder="Email"
+              name="user-email"
+              required
+              title="*******@*****.***"
+            />
+          </li>
+          <li>
+            <input
+              class="contact-form-item"
+              type="tel"
+              placeholder="+380"
+              name="user-tel"
+              required
+              title="+380000000000"
+              pattern="[+]{1}[0-9]{12}"
+            />
+          </li>
+          <li>
+            <textarea
+              class="contact-form-item textar-item"
+              name="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </li>
+        </ul>
+        <button class="send-btn" type="submit">Send</button>
+      </form>
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/contact-us-img/contact-us.png   1x,
+            ./img/contact-us-img/contact-us@2.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/contact-us-img/tablet-contact-us.png   1x,
+            ./img/contact-us-img/tablet-contact-us@2.png 2x
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="
+            ./img/contact-us-img/mobile-contact-us.png   1x,
+            ./img/contact-us-img/mobile-contact-us@2.png 2x
+          "
+        />
+        <img src="./img/catalog-img/mobile-catalog5.png" alt="" />
+      </picture>
+    </div>
+  </div>
+</section>
